@@ -324,9 +324,9 @@ input[type=number]::-webkit-inner-spin-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 6vmin;
-    font-size: 3vmin;
-    min-width: 20vmin;
+    height: 5vmin;
+    font-size: 2vmin;
+    min-width: 17vmin;
     margin: 2vmin 1vmin;
   }
 
@@ -395,4 +395,5 @@ input[type=number]::-webkit-inner-spin-button {
     display: block;           /* ensures it behaves as a block for margin auto */
   }
 }
+
 
