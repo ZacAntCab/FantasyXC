@@ -315,3 +315,84 @@ input[type=number]::-webkit-inner-spin-button {
   margin: 0.5vmin 0;
   color: #2f91ed;
 }
+@media (max-width: 768px) {
+  body {
+    font-size: 3.5vmin; /* scale text slightly bigger */
+  }
+
+  .nav-btn, .filter-btn, .sort-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vmin;
+    font-size: 3vmin;
+    min-width: 20vmin;
+    margin: 2vmin 1vmin;
+  }
+
+  .runners-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20vmin, 1fr));
+    grid-auto-rows: min-content;  /* rows now scale to content */
+    gap: 2vmin;                   /* vertical & horizontal spacing */
+    width: 95vw;
+  }
+
+.runner {
+  display: flex;
+  align-items: center;       /* vertically center text */
+  justify-content: center;   /* horizontally center text */
+  font-size: 2.5vmin;
+  min-width: 20vmin;
+  padding: 2.5vmin;            /* uniform padding */
+  box-sizing: border-box;
+  text-align: center;         /* ensures text itself is centered */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+  .teams-display {
+    grid-template-columns: repeat(auto-fit, minmax(30vmin, 1fr));
+    width: 95vw;
+    gap: 3vmin;
+  }
+
+  .final-team-card,
+  .score-card,
+  .result-card {
+    width: 90vw;        /* scale cards to most of screen width */
+    padding: 4vmin;     /* keep some inner spacing */
+  }
+
+  .final-team-card h2,
+  .result-card h2 {
+    font-size: 5vmin;   /* slightly larger heading text */
+  }
+
+  .final-team-card h3,
+  .result-card h3 {
+    font-size: 3vmin;   /* slightly larger subheadings */
+  }
+
+  .final-team-card ul,
+  .result-card ul {
+    font-size: 2.5vmin; /* slightly larger list items */
+  }
+
+  .player-score label {
+    width: 45vw; /* make names line up but scale with screen */
+    font-size: 3vmin;
+  }
+
+  .player-score input {
+    width: 10ch; /* keep input reasonable */
+    font-size: 2.5vmin;
+  }
+    .score-card .nav-btn {
+    margin: 2vmin auto;       /* auto left/right centers it */
+    display: block;           /* ensures it behaves as a block for margin auto */
+  }
+}
+
