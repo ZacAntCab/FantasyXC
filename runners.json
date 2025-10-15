@@ -1,0 +1,436 @@
+[
+    {
+        "name": "Ted",
+        "group": ["JV 10-12"],
+        "pr": 22.05,
+        "sb": 22.05,
+        "available": true
+    },
+    {
+        "name": "Kai",
+        "group": ["JV 10-12"],
+        "pr": 23.06,
+        "sb": 23.06,
+        "available": true
+    },
+    {
+        "name": "Darryl",
+        "group": ["JV 10-12"],
+        "pr": 27.1683,
+        "sb": 27.1683,
+        "available": true
+    },
+    {
+        "name": "Beau",
+        "group": ["JV 7-9"],
+        "pr": 21.5183,
+        "sb": 21.5183,
+        "available": true
+    },
+    {
+        "name": "Bear",
+        "group": ["JV 10-12","Sub-Varsity","Varsity"],
+        "pr": 17.0646,
+        "sb": 17.343,
+        "available": true
+    },
+    {
+        "name": "Dreyden",
+        "group": ["JV 10-12","Sub-Varsity"],
+        "pr": 18.0346,
+        "sb": 18.0346,
+        "available": true
+    },
+    {
+        "name": "Tristan",
+        "group": ["JV 10-12"],
+        "pr": 22.1844,
+        "sb": 22.1844,
+        "available": true
+    },
+    {
+        "name": "Adam",
+        "group": ["JV 10-12", "Sub-Varsity"],
+        "pr": 18.3492,
+        "sb": 100,
+        "available": true
+    },
+    {
+        "name": "Gabe",
+        "group": ["JV 7-9"],
+        "pr": 21.5510,
+        "sb": 21.5510,
+        "available": true
+    },
+    {
+        "name": "Sam",
+        "group": ["JV 10-12"],
+        "pr": 23.1424,
+        "sb": 23.462,
+        "available": true
+    },
+    {
+        "name": "TJ",
+        "group": ["JV 7-9", "Sub-Varsity"],
+        "pr": 18.537,
+        "sb": 18.537,
+        "available": true
+    },
+    {
+        "name": "Albrecht",
+        "group": ["JV 10-12"],
+        "pr": 21.026,
+        "sb": 26.41,
+        "available": true
+    },
+    {
+        "name": "James",
+        "group": ["JV 10-12"],
+        "pr": 21.5775,
+        "sb": 21.5775,
+        "available": true
+    },
+    {
+        "name": "Walker",
+        "group": ["JV 10-12"],
+        "pr": 19.5877,
+        "sb": 24.565,
+        "available": true
+    },
+    {
+        "name": "Noah",
+        "group": ["JV 7-9"],
+        "pr": 22.4375,
+        "sb": 22.4375,
+        "available": true
+    },
+    {
+        "name": "Jay",
+        "group": ["JV 10-12"],
+        "pr": 22.196,
+        "sb": 22.196,
+        "available": true
+    },
+    {
+        "name": "Tauro",
+        "group": ["JV 10-12", "Sub-Varsity"],
+        "pr": 18.3113,
+        "sb": 19.021,
+        "available": true
+    },
+    {
+        "name": "Braden",
+        "group": ["JV 10-12"],
+        "pr": 20.2292,
+        "sb": 21.16,
+        "available": true
+    },
+    {
+        "name": "Owen",
+        "group": ["JV 10-12", "Sub-Varsity"],
+        "pr": 19.591,
+        "sb": 19.591,
+        "available": true
+    },
+    {
+        "name": "Cooper",
+        "group": ["JV 10-12"],
+        "pr": 20.559,
+        "sb": 20.559,
+        "available": true
+    },
+    {
+        "name": "Ayden",
+        "group": ["JV 10-12"],
+        "pr": 26.4473,
+        "sb": 26.4473,
+        "available": true
+    },
+    {
+        "name": "Alex",
+        "group": ["JV 10-12", "Sub-Varsity"],
+        "pr": 17.5776,
+        "sb": 19.2967,
+        "available": true
+    },
+    {
+        "name": "Freckle",
+        "group": ["JV 7-9", "Sub-Varsity"],
+        "pr": 19.047,
+        "sb": 20.146,
+        "available": true
+    },
+    {
+        "name": "Jacob",
+        "group": ["JV 7-9"],
+        "pr": 20.1412,
+        "sb": 20.1412,
+        "available": true
+    },
+    {
+        "name": "Roberto",
+        "group": ["JV 7-9", "Sub-Varsity"],
+        "pr": 18.523,
+        "sb": 18.523,
+        "available": true
+    },
+    {
+        "name": "Emil",
+        "group": ["Varsity"],
+        "pr": 16.1304,
+        "sb": 16.1304,
+        "available": true
+    },
+    {
+        "name": "Teddy",
+        "group": ["JV 10-12"],
+        "pr": 25.245,
+        "sb": 29.154,
+        "available": true
+    },
+    {
+        "name": "Danny",
+        "group": ["JV 10-12"],
+        "pr": 22.355,
+        "sb": 22.355,
+        "available": true
+    },
+    {
+        "name": "JD",
+        "group": ["JV 7-9"],
+        "pr": 22.5655,
+        "sb": 22.5655,
+        "available": true
+    },
+    {
+        "name": "Walle",
+        "group": ["Varsity"],
+        "pr": 16.2949,
+        "sb": 16.2949,
+        "available": true
+    },
+    {
+        "name": "Landon",
+        "group": ["JV 7-9"],
+        "pr": 22.2048,
+        "sb": 22.2048,
+        "available": true
+    },
+    {
+        "name": "Slaw",
+        "group": ["JV 10-12", "Sub-Varsity"],
+        "pr": 18.409,
+        "sb": 18.409,
+        "available": true
+    },
+    {
+        "name": "Nate",
+        "group": ["JV 10-12"],
+        "pr": 20.3774,
+        "sb": 20.3774,
+        "available": true
+    },
+    {
+        "name": "Cam",
+        "group": ["JV 10-12"],
+        "pr": 23.19,
+        "sb": 23.19,
+        "available": true
+    },
+    {
+        "name": "Nik",
+        "group": ["JV 7-9"],
+        "pr": 31.49,
+        "sb": 31.49,
+        "available": true
+    },
+    {
+        "name": "Davis",
+        "group": ["Varsity"],
+        "pr": 16.0992,
+        "sb": 16.0992,
+        "available": true
+    },
+    {
+        "name": "Fisher",
+        "group": ["Varsity"],
+        "pr": 15.5436,
+        "sb": 16.1387,
+        "available": true
+    },
+    {
+        "name": "Hampton",
+        "group": ["JV 7-9"],
+        "pr": 21.2761,
+        "sb": 21.2761,
+        "available": true
+    },
+    {
+        "name": "Sammy",
+        "group": ["Varsity"],
+        "pr": 15.5981,
+        "sb": 15.5981,
+        "available": true
+    },
+    {
+        "name": "Hudson",
+        "group": ["Varsity"],
+        "pr": 15.3913,
+        "sb": 15.3913,
+        "available": true
+    },
+    {
+        "name": "Jax",
+        "group": ["JV 7-9","Sub-Varsity","Varsity"],
+        "pr": 16.3575,
+        "sb": 16.3575,
+        "available": true
+    },
+    {
+        "name": "Michael",
+        "group": ["JV 10-12"],
+        "pr": 20.5052,
+        "sb": 22.35,
+        "available": true
+    },
+    {
+        "name": "Ray",
+        "group": ["JV 10-12"],
+        "pr": 20.2119,
+        "sb": 21.4873,
+        "available": true
+    },
+    {
+        "name": "Gavin",
+        "group": ["JV 10-12", "Sub-Varsity"],
+        "pr": 17.482,
+        "sb": 17.482,
+        "available": true
+    },
+    {
+        "name": "Jaxen",
+        "group": ["JV 10-12"],
+        "pr": 32.3749,
+        "sb": 32.3749,
+        "available": true
+    },
+    {
+        "name": "Trevian",
+        "group": ["JV 7-9"],
+        "pr": 34.161,
+        "sb": 34.161,
+        "available": true
+    },
+    {
+        "name": "Tank",
+        "group": ["JV 10-12", "Sub-Varsity"],
+        "pr": 18.159,
+        "sb": 18.159,
+        "available": true
+    },
+    {
+        "name": "Mickey",
+        "group": ["JV 10-12", "Sub-Varsity"],
+        "pr": 18.056,
+        "sb": 18.056,
+        "available": true
+    },
+    {
+        "name": "Pac",
+        "group": ["JV 7-9", "Sub-Varsity", "Varsity"],
+        "pr": 16.1623,
+        "sb": 16.1623,
+        "available": true
+    },
+    {
+        "name": "Jesus",
+        "group": ["JV 10-12"],
+        "pr": 23.0251,
+        "sb": 23.1662,
+        "available": true
+    },
+    {
+        "name": "Dylan",
+        "group": ["JV 10-12"],
+        "pr": 21.0979,
+        "sb": 21.0979,
+        "available": true
+    },
+    {
+        "name": "Novak",
+        "group": ["Varsity"],
+        "pr": 15.5613,
+        "sb": 16.4194,
+        "available": true
+    },
+    {
+        "name": "Ruhaan",
+        "group": ["JV 10-12"],
+        "pr": 21.5981,
+        "sb": 23.2398,
+        "available": true
+    },
+    {
+        "name": "Matthew",
+        "group": ["JV 7-9","Sub-Varsity"],
+        "pr": 19.4815,
+        "sb": 19.4815,
+        "available": true
+    },
+    {
+        "name": "Anuj",
+        "group": ["JV 10-12"],
+        "pr": 24.1311,
+        "sb": 24.1311,
+        "available": true
+    },
+    {
+        "name": "JP",
+        "group": ["JV 10-12", "Sub-Varsity"],
+        "pr": 19.2786,
+        "sb": 20.1729,
+        "available": true
+    },
+    {
+        "name": "Jack",
+        "group": ["JV 7-9"],
+        "pr": 26.1107,
+        "sb": 26.1107,
+        "available": true
+    },
+    {
+        "name": "Micah",
+        "group": ["JV 10-12"],
+        "pr": 26.1786,
+        "sb": 26.1786,
+        "available": true
+    },
+    {
+        "name": "Nick",
+        "group": ["JV 10-12"],
+        "pr": 21.52,
+        "sb": 21.52,
+        "available": true
+    },
+    {
+        "name": "McCain",
+        "group": ["JV 10-12"],
+        "pr": 19.3357,
+        "sb": 23.4525,
+        "available": true
+    },
+    {
+        "name": "Parker",
+        "group": ["JV 10-12", "Sub-Varsity"],
+        "pr": 18.1351,
+        "sb": 18.1351,
+        "available": true
+    },
+    {
+        "name": "Terk",
+        "group": ["JV 7-9"],
+        "pr": 27.4269,
+        "sb": 27.4269,
+        "available": true
+    }
+]

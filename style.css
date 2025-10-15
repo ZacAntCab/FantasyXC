@@ -1,0 +1,317 @@
+@font-face {
+    font-family: 'SystemFont';
+    src: url(centurygothic_bold.ttf);
+}
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    font-family: 'SystemFont';
+    outline: none;
+    border: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    margin: 3vmin;
+    color: #2f91ed;
+    font-size: 7vmin;
+}
+h1{
+    color: #2f91ed;
+    font-size: 4vmin;
+}
+hr{
+    background-color: #eaeaea;
+    width: 70vw;
+    height: 0.4vmin;
+    border-radius: 0.2vmin;
+    margin: 1vmin;
+}
+.nav-btn{
+    margin: 2vmin;
+    background-color: #2f91ed;
+    color: white;
+    cursor: pointer;
+    border-radius: 1vmin;
+    height: 4vmin;
+    min-width: 11vmin;
+    max-width: fit-content;
+    font-size: 1.5vmin;
+    align-items: center;
+    justify-content: center;
+}
+.nav-btn:active{
+    background-color: #1a5891;
+}
+.nav-btn:hover{
+    transform: scale(1.05);
+}
+.nav-btns-container{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: 1vmin;
+}
+.teams-display{
+    align-items: center;
+    justify-content: center;
+    place-content: center;
+    margin: 3vmin;
+    display: grid;
+    width: 90vmin;
+    grid-template-columns: repeat(auto-fill, 30vmin);
+    gap: 3vmin;
+    grid-template-rows: 17vmin;
+    grid-auto-flow: dense;
+}
+legend{
+    color: #2f91ed;
+    font-size: 2.5vmin;
+}
+.card{
+    position: relative;
+    margin: 1vmin;
+    box-shadow: 0vmin 0vmin 0.5vmin #808080;
+    border-radius: 1vmin;
+    padding: 3vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.team-info-input{
+    margin: 1.5vmin;
+    border: #2f91ed 0.3vmin solid;
+    border-radius: 0.5vmin;
+    padding: 1vmin;
+    font-size: 1.5vmin;
+}
+.team-info{
+    margin: 0;
+    font-size: 2vmin;
+    color: #2f91ed;
+}
+.team-name{
+    color: #7abfff;
+    font-size: 3vmin;
+}
+.team-info-display-template{
+    text-align: center;
+    display: none;
+    height: 17vmin;
+}
+.remove-team-btn{
+    font-size: 1vmin;
+    cursor: pointer;
+    position: absolute;
+    background-color: white;
+    color: grey;
+    top: 1vmin;
+    right: 1vmin;
+}
+.filter-buttons{
+    display: flex;
+    flex-direction: row;
+}
+.filter-btn{
+    background-color: white;
+    border: #a6a6a6 0.3vmin solid;
+    color: #a6a6a6;
+    cursor: pointer;
+    border-radius: 1vmin;
+    height: 4vmin;
+    width: 20vmin;
+    font-size: 1.5vmin;
+    align-items: center;
+    justify-content: center;
+    margin: 1vmin;
+}
+.filter-btn:hover{
+    transform: scale(1.05);
+}
+.active{
+    border: #2f91ed 0.3vmin solid;
+    color: #2f91ed;
+}
+.runners-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 11vmin);
+    grid-template-rows: repeat(11, 4vmin);
+    gap: 1vmin;
+}
+.runner{
+    display: flex;
+    background-color: white;
+    border: #2f91ed 0.3vmin solid;
+    color: #2f91ed;
+    cursor: pointer;
+    border-radius: 1vmin;
+    height: 4vmin;
+    min-width: 11vmin;
+    max-width: fit-content;
+    font-size: 1.5vmin;
+    align-items: center;
+    justify-content: center;
+}
+.runner:hover{
+    transform: scale(1.05);
+}
+.excluded{
+    border: #a6a6a6 0.3vmin solid;
+    color: #a6a6a6;
+}
+.runner.picked{
+    color: #a6a6a6;
+    border-color: #a6a6a6;
+    cursor: default;
+}
+#draft-ui{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+}
+#sort-buttons{
+    display: flex;
+    flex-direction: row;
+    margin: 1vmin;
+}
+.sort-btn {
+  display: none;
+  background-color: white;
+  border: #2f91ed 0.3vmin solid;
+  border-radius: 1vmin;
+  color: #2f91ed;
+  cursor: pointer;
+  font-size: 1.5vmin;
+  margin: 0.5vmin;
+  padding: 0.5vmin 1vmin;
+  transition: background-color 0.2s ease;
+}
+
+.sort-btn:hover {
+  transform: scale(1.05);
+}
+
+.sort-btn:active, .runner:active, .filter-btn:active{
+  background-color: #cde2ff;
+}
+#teams-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4vmin;
+    width: 90vmin;
+}
+.final-team-card{
+    width: 38vmin;
+    color: #2f91ed;
+    box-shadow: 0vmin 0vmin 0.5vmin #808080;
+    border-radius: 1vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.final-team-card h2{
+    font-size: 4vmin;
+    color: #2f91ed;
+    margin-bottom: 1vmin;
+}
+.final-team-card h3{
+    font-size: 2vmin;
+    color: #1a5891;
+    margin: 0;
+}
+.final-team-card ul{
+    font-size: 2vmin;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 0;
+    align-items: center;
+    justify-content: center;
+    color: #7abfff;
+}
+a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player-score {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centers the whole row inside card */
+  gap: 1vmin;              /* space between name and input */
+  margin: 1vmin 0;
+}
+
+.player-score label {
+  color: #1a5891;
+  font-size: 2.2vmin;
+  width: 20vmin;           /* fixed width for all names */
+  text-align: left;        /* all names start at same spot */
+}
+
+.player-score input {
+  flex: 0 0 auto;          /* fixed width input */
+  width: 7ch;              /* fits ~7 digits */
+  border: 0.3vmin solid #2f91ed;
+  border-radius: 0.8vmin;
+  padding: 0.8vmin;
+  font-size: 2vmin;
+  text-align: left;       /* numbers aligned inside input */
+}
+
+
+
+.score-card {
+  background-color: #ffffff;
+  border: 0.4vmin solid #2f91ed;
+  border-radius: 2vmin;
+  box-shadow: 0 0 2vmin rgba(0, 0, 0, 0.1);
+  padding: 4vmin;
+  width: 60vmin;
+  max-width: 90vw;
+  text-align: center;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.result-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: clamp(300px, 35vmin, 500px); /* min 300px, ideal 35vmin, max 500px */
+  margin: 2vmin auto;                  /* stacked vertically, centered */
+  padding: 3vmin;
+  border-radius: 1vmin;
+  box-shadow: 0 0 0.5vmin #808080;     /* subtle shadow */
+  color: #2f91ed;                       /* darker blue text */
+}
+
+.result-card.winner {
+  border: 0.3vmin solid #2f91ed;       /* blue outline for winner */
+}
+
+.result-card h2,
+.result-card h3 {
+  margin: 0.5vmin 0;
+  color: #2f91ed;
+}
+
+.runner-result {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0.5vmin 0;
+  color: #2f91ed;
+}

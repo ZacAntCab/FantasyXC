@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FantasyXC</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header style="display: flex;flex-direction: row;">Fantasy<header style="color: #7abfff;margin: 0;">XC</header></header>
+    <form class="card team-info-form">
+        <input class="team-info-input team-name-input" type="text" placeholder="Team Name">
+        <input class="team-info-input coach-name-input" type="text" placeholder="Coach">
+        <button class="nav-btn create-team-btn" type="button">Create Team</button>
+    </form>
+    <section class="teams-display">
+    </section>
+    <button class="nav-btn" id="choose-players-btn" style="display: none;" >Select Players</button>
+    <div class="card team-info-display-template">
+        <p class="team-info team-name"></p>
+        <p class="team-info team-coach"></p>
+        <button class="remove-team-btn">╳</button>
+    </div>
+</body>
+</html>
