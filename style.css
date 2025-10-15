@@ -395,9 +395,10 @@ input[type=number]::-webkit-inner-spin-button {
     display: block;           /* ensures it behaves as a block for margin auto */
   }
   .remove-team-btn {
-    font-size: 2vmin;
+    font-size: 1.5vmin;
   }
 }
+
 
 
 
