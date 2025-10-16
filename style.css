@@ -315,6 +315,55 @@ input[type=number]::-webkit-inner-spin-button {
   margin: 0.5vmin 0;
   color: #2f91ed;
 }
+
+.instructions{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ol {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+}
+ol li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1vmin 0 0 1vmin;
+}
+
+.text-box{
+  display: flex;
+  flex-direction: column;
+}
+
+.instructions-number{
+  margin-right: 2vmin;
+  color: #7abfff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2.5vmin;
+  width: 4.5vmin;
+  height: 4.5vmin;
+  border-radius: 2.25vmin;
+  box-shadow: 0vmin 0vmin 0.5vmin #808080;
+}
+
+.instructions-heading{
+  color: #1a5891;
+  padding: 0;
+  margin: 0;
+}
+
+.instructions-description{
+  width: 65vmin;
+}
+
 @media (max-width: 768px) {
   body {
     font-size: 3.5vmin; /* scale text slightly bigger */
@@ -395,9 +444,53 @@ input[type=number]::-webkit-inner-spin-button {
     display: block;           /* ensures it behaves as a block for margin auto */
   }
   .remove-team-btn {
-    font-size: 1.5vmin;
+    font-size: 2vmin;
   }
+
+  .instructions{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+ol {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ol li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.text-box{
+  display: flex;
+  flex-direction: column;
+}
+
+.instructions-number{
+  margin-right: 2vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2.5vmin;
+}
+
+.instructions-heading{
+  font-size: 3vmin;
+  color: #1a5891;
+  padding: 0;
+  margin: 0;
+}
+
+.instructions-description{
+  width: 60vmin;
+  font-size: 2vmin;
+}
+}
+
 
 
 
