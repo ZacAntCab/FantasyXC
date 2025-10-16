@@ -203,7 +203,7 @@
         "available": true
     },
     {
-        "name": "Walle",
+        "name": "Wally",
         "group": ["Varsity"],
         "pr": 16.2949,
         "sb": 16.2949,
@@ -433,4 +433,5 @@
         "sb": 27.4269,
         "available": true
     }
+
 ]
