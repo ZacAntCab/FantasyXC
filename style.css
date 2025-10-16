@@ -322,6 +322,7 @@ input[type=number]::-webkit-inner-spin-button {
   align-items: center;
 }
 ol {
+  padding: 0;
   width: 80vw;
   display: flex;
   flex-direction: column;
@@ -490,6 +491,7 @@ ol li {
   font-size: 2vmin;
 }
 }
+
 
 
 
